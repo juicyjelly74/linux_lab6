@@ -17,7 +17,7 @@ static struct kobject *customtimer_kobject;
 static void print_text(unsigned long data)
 {
 	if (times_left > 0) {
-		printk(KERN_INFO "U r in lab 6\n");
+		printk(KERN_INFO "PVMS lab6\n");
 		times_left--;
 	} 
 	//jiffies определяет количество временных тиков (тактов)
